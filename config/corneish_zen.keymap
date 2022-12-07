@@ -143,12 +143,12 @@
                 MED {
                     label = "MEDIA";
 // -----------------------------------------------------------------------------------------
-// |     |     | BT1 | BT2  | BT3  |     | |     | |      | VOLD | MUTE | VOLU |      |      |
+// |     | CLR | BT1 | BT2  | BT3  |     | |     | |      | VOLD | MUTE | VOLU |      |      |
 // |     | ALT | CTR | META | SHFT |     | |     | |      | PREV | PP   | NEXT |      |      |
 // |     |     |     |      |      |     | |     | |      |      |      |      |      |      |
 //                   |      |      |     | |     | | BKSP | RET  | DEL  |
                         bindings = <
-   &none        &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 3 &none         &none           &kp C_VOL_DN &kp C_MUTE  &kp C_VOL_UP &none
+   &bt BT_CLR   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 3 &none         &none           &kp C_VOL_DN &kp C_MUTE  &kp C_VOL_UP &none
    &kp LALT     &kp LCTRL    &kp LGUI     &kp LSHFT    &none         &none           &kp C_PREV   &kp C_PP    &kp C_NEXT   &none
    &none        &none        &none        &none        &none         &none           &none        &none       &none        &none
                              &none        &none        &none         &kp RET         &kp BKSP     &kp DEL
